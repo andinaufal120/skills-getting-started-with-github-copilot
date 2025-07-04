@@ -95,6 +95,16 @@ section h3 {
   border-radius: 3px;
   margin-bottom: 5px;
   font-size: 0.9em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  padding: 0 5px;
 }
 
 .form-group {
